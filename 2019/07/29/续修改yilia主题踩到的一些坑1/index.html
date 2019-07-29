@@ -6,15 +6,24 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Tag: yilia | Hexo</title>
+  <title>续修改yilia主题踩到的一些坑1 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/tags/yilia/index.html">
+  <meta name="description" content="第一个大坑是打赏功能的自定义 配置文档里写的是要对相应文章开启打赏功能就要在文章添加 reward 属性为 true，那么问题来了 要怎么在相应的文章里添加 reward 属性呢？？？！！注意看编辑器的预览部分这个属性最大的坑就是 在  Markdwon编辑器 里是会被翻译成其他东西，我之前也试过这种写法但是看到是这个效果之后就果断放弃了 在我百度大半天也找不到该怎么定义的时候，就决定先放在一边">
+<meta name="keywords" content="yilia">
+<meta property="og:type" content="article">
+<meta property="og:title" content="续修改yilia主题踩到的一些坑1">
+<meta property="og:url" content="http://yoursite.com/2019/07/29/续修改yilia主题踩到的一些坑1/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="第一个大坑是打赏功能的自定义 配置文档里写的是要对相应文章开启打赏功能就要在文章添加 reward 属性为 true，那么问题来了 要怎么在相应的文章里添加 reward 属性呢？？？！！注意看编辑器的预览部分这个属性最大的坑就是 在  Markdwon编辑器 里是会被翻译成其他东西，我之前也试过这种写法但是看到是这个效果之后就果断放弃了 在我百度大半天也找不到该怎么定义的时候，就决定先放在一边">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="http://yoursite.com/2019/07/29/续修改yilia主题踩到的一些坑1/001.png">
+<meta property="og:image" content="http://yoursite.com/2019/07/29/续修改yilia主题踩到的一些坑1/002.png">
+<meta property="og:image" content="http://yoursite.com/2019/07/29/续修改yilia主题踩到的一些坑1/003.png">
+<meta property="og:updated_time" content="2019-07-29T02:07:42.957Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
+<meta name="twitter:title" content="续修改yilia主题踩到的一些坑1">
+<meta name="twitter:description" content="第一个大坑是打赏功能的自定义 配置文档里写的是要对相应文章开启打赏功能就要在文章添加 reward 属性为 true，那么问题来了 要怎么在相应的文章里添加 reward 属性呢？？？！！注意看编辑器的预览部分这个属性最大的坑就是 在  Markdwon编辑器 里是会被翻译成其他东西，我之前也试过这种写法但是看到是这个效果之后就果断放弃了 在我百度大半天也找不到该怎么定义的时候，就决定先放在一边">
+<meta name="twitter:image" content="http://yoursite.com/2019/07/29/续修改yilia主题踩到的一些坑1/001.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -150,36 +159,75 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-续修改yilia主题踩到的一些坑1" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      续修改yilia主题踩到的一些坑1
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/07/29/续修改yilia主题踩到的一些坑1/" class="archive-article-date">
+
+        
+        <a href="/2019/07/29/续修改yilia主题踩到的一些坑1/" class="archive-article-date">
   	<time datetime="2019-07-29T00:25:16.891Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-29</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/07/29/续修改yilia主题踩到的一些坑1/">续修改yilia主题踩到的一些坑1</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="第一个大坑是打赏功能的自定义"><a href="#第一个大坑是打赏功能的自定义" class="headerlink" title="第一个大坑是打赏功能的自定义"></a>第一个大坑是打赏功能的自定义</h3><p><img src="001.png" alt="配置文档里是这么写的"></p>
+<p>配置文档里写的是要对相应文章开启打赏功能就要在文章添加 <strong>reward</strong> 属性为 <strong>true</strong>，那么问题来了 要怎么在相应的文章里添加 <strong>reward</strong> 属性呢？？？<br><br><img src="002.png" alt="注意看编辑器预览部分"><br>！！注意看编辑器的预览部分这个属性最大的坑就是 <strong>在  Markdwon编辑器 里是会被翻译成其他东西</strong>，我之前也试过这种写法但是看到是这个效果之后就果断放弃了 在我百度大半天也找不到该怎么定义的时候，就决定先放在一边 因为还有更棘手的问题（之前连头像都显示不完整 还有用于打赏的支付宝二维码显示错误),这种规范的不统一让新手摸不着头脑……</p>
+<h3 id="第二个坑就是上面提到的支付宝二维码显示错误的问题（在本地预览等时候是正确显示的）"><a href="#第二个坑就是上面提到的支付宝二维码显示错误的问题（在本地预览等时候是正确显示的）" class="headerlink" title="第二个坑就是上面提到的支付宝二维码显示错误的问题（在本地预览等时候是正确显示的）"></a>第二个坑就是上面提到的支付宝二维码显示错误的问题（在本地预览等时候是正确显示的）</h3><p><img src="003.png" alt="上传到服务器端支付宝二维码显示错误但是在本地预览的时候显示正常"><br>这个问题整得我很头疼，刚开始还以为是我电脑的问题就叫了朋友来验证 <strong>结果朋友的也显示错误</strong> 后来我还试了修改文件名也还是不行，然后不知怎么的我想起了 <strong>之前设置头像的时候需要1:1的图片才能显示正常</strong> 我就索性在ps建了一个<strong>450 x 450</strong> 分辨率的图把这两张图放进去…….得出结论这两张图也得<strong>1:1才能显示正常</strong>（话说大佬是有多喜欢正方形）</p>
+<h3 id="最后说算不上是坑的东西"><a href="#最后说算不上是坑的东西" class="headerlink" title="最后说算不上是坑的东西"></a>最后说算不上是坑的东西</h3><p>昨天在弄主题的时候发现图片显示不了就去百度了一下 说是要装一个 <strong>hexo插件</strong> 它的下载地址是这样的<br></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
 
-        <div class="article-info info-on-right">
-          
+<p><br>但实际上如果你装了淘宝的镜像源就会发现报错，这是因为你已经装了淘宝的镜像了就不能用 <strong>npm</strong> 来安装 应该用： <strong>cnpm</strong><br></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cnpm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
+
+<h5 id="目前踩到的坑就这么多希望这对你有一些帮助-最后祝你生活愉快～～"><a href="#目前踩到的坑就这么多希望这对你有一些帮助-最后祝你生活愉快～～" class="headerlink" title="目前踩到的坑就这么多希望这对你有一些帮助  最后祝你生活愉快～～"></a>目前踩到的坑就这么多希望这对你有一些帮助  最后祝你生活愉快～～</h5><p>我的邮箱：<strong><a href="mailto:imndhghh@icloud.com" target="_blank" rel="noopener">imndhghh@icloud.com</a></strong></p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>感谢您的支持<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/zfb.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/img/wx.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -191,61 +239,106 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/07/29/续修改yilia主题踩到的一些坑1/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/07/27/hexo1/" class="archive-article-date">
-  	<time datetime="2019-07-27T08:32:13.128Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-27</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2019/07/27/hexo1/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">初次接触hexo博客框架</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/07/27/hexo1/">初次接触hexo博客框架</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">yilia</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -268,9 +361,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: true,
 		toc_hide_index: true,

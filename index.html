@@ -152,6 +152,89 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-续修改yilia主题踩到的一些坑1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/07/29/续修改yilia主题踩到的一些坑1/">续修改yilia主题踩到的一些坑1</a>
+    </h1>
+  
+
+        
+        <a href="/2019/07/29/续修改yilia主题踩到的一些坑1/" class="archive-article-date">
+  	<time datetime="2019-07-29T00:25:16.891Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-29</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="第一个大坑是打赏功能的自定义"><a href="#第一个大坑是打赏功能的自定义" class="headerlink" title="第一个大坑是打赏功能的自定义"></a>第一个大坑是打赏功能的自定义</h3><p><img src="001.png" alt="配置文档里是这么写的"></p>
+<p>配置文档里写的是要对相应文章开启打赏功能就要在文章添加 <strong>reward</strong> 属性为 <strong>true</strong>，那么问题来了 要怎么在相应的文章里添加 <strong>reward</strong> 属性呢？？？<br><br><img src="002.png" alt="注意看编辑器预览部分"><br>！！注意看编辑器的预览部分这个属性最大的坑就是 <strong>在  Markdwon编辑器 里是会被翻译成其他东西</strong>，我之前也试过这种写法但是看到是这个效果之后就果断放弃了 在我百度大半天也找不到该怎么定义的时候，就决定先放在一边 因为还有更棘手的问题（之前连头像都显示不完整 还有用于打赏的支付宝二维码显示错误),这种规范的不统一让新手摸不着头脑……</p>
+<h3 id="第二个坑就是上面提到的支付宝二维码显示错误的问题（在本地预览等时候是正确显示的）"><a href="#第二个坑就是上面提到的支付宝二维码显示错误的问题（在本地预览等时候是正确显示的）" class="headerlink" title="第二个坑就是上面提到的支付宝二维码显示错误的问题（在本地预览等时候是正确显示的）"></a>第二个坑就是上面提到的支付宝二维码显示错误的问题（在本地预览等时候是正确显示的）</h3><p><img src="003.png" alt="上传到服务器端支付宝二维码显示错误但是在本地预览的时候显示正常"><br>这个问题整得我很头疼，刚开始还以为是我电脑的问题就叫了朋友来验证 <strong>结果朋友的也显示错误</strong> 后来我还试了修改文件名也还是不行，然后不知怎么的我想起了 <strong>之前设置头像的时候需要1:1的图片才能显示正常</strong> 我就索性在ps建了一个<strong>450 x 450</strong> 分辨率的图把这两张图放进去…….得出结论这两张图也得<strong>1:1才能显示正常</strong>（话说大佬是有多喜欢正方形）</p>
+<h3 id="最后说算不上是坑的东西"><a href="#最后说算不上是坑的东西" class="headerlink" title="最后说算不上是坑的东西"></a>最后说算不上是坑的东西</h3><p>昨天在弄主题的时候发现图片显示不了就去百度了一下 说是要装一个 <strong>hexo插件</strong> 它的下载地址是这样的<br></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
+
+<p><br>但实际上如果你装了淘宝的镜像源就会发现报错，这是因为你已经装了淘宝的镜像了就不能用 <strong>npm</strong> 来安装 应该用： <strong>cnpm</strong><br></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cnpm install hexo-asset-image --save</span><br></pre></td></tr></table></figure>
+
+<h5 id="目前踩到的坑就这么多希望这对你有一些帮助-最后祝你生活愉快～～"><a href="#目前踩到的坑就这么多希望这对你有一些帮助-最后祝你生活愉快～～" class="headerlink" title="目前踩到的坑就这么多希望这对你有一些帮助  最后祝你生活愉快～～"></a>目前踩到的坑就这么多希望这对你有一些帮助  最后祝你生活愉快～～</h5><p>我的邮箱：<strong><a href="mailto:imndhghh@icloud.com" target="_blank" rel="noopener">imndhghh@icloud.com</a></strong></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">yilia</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2019/07/29/续修改yilia主题踩到的一些坑1/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-hexo1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
